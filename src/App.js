@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import MyComponent from './MyComponent';  // MyComponent 파일을 불러온다.
+import IterationSample from './IterationSample';
+
 
 // function App() {
 class App extends Component {
   render() {
     return (
-      <MyComponent name = "React" age={4}/>
+      <IterationSample/>
     );
   }
 }
